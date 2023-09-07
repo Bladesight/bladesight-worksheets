@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bladesight-worksheets"
+version = "0.1.0"
+description = "This repo contains all worksheets for bladesight tutorials"
+authors = ["Dawie Diamond <dawie.diamond@bladesight.com>"]
+readme = "README.md"
+packages = [{include = "bladesight_worksheets"}]
+
+[tool.poetry.dependencies]
+python = ">3.10,<4.0"
+bladesight = "^0.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
