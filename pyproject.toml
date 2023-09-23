@@ -8,7 +8,9 @@ packages = [{include = "bladesight_worksheets"}]
 
 [tool.poetry.dependencies]
 python = ">3.10,<4.0"
-bladesight = "^0.2.0"
+bladesight = {path = "../Bladesight/bladesight", develop = true}
+plotly = "^5.17.0"
+numba = "^0.57.1"
 
 
 [tool.poetry.group.dev.dependencies]
