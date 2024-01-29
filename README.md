@@ -1,3 +1,4 @@
-Worksheets for Bladesight .
+Worksheets for Bladesight
 
-In preprelease.
+Go to https://docs.bladesight.com
+
