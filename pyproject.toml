@@ -9,9 +9,8 @@ packages = [{include = "bladesight_worksheets"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
-bladesight = {path = "C:/Users/Dawie Diamond/OneDrive/Bladesight/bladesight", develop = true}
+bladesight = 0.14.0
 plotly = "^5.23.0"
-nbformat = "^5.10.4"
 
 
 [tool.poetry.group.dev.dependencies]
