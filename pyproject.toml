@@ -1,19 +1,21 @@
 [tool.poetry]
 name = "bladesight-worksheets"
-version = "0.1.0"
-description = "This repo contains all worksheets for bladesight tutorials"
+version = "0.2.0"
+description = "Worksheets for Bladesight tutorials"
 authors = ["Dawie Diamond <dawie.diamond@bladesight.com>"]
+license = "MIT"
 readme = "README.md"
 packages = [{include = "bladesight_worksheets"}]
 
 [tool.poetry.dependencies]
-python = ">3.10,<3.12"
-bladesight = "^0.13.2"
-plotly = "^5.18.0"
+python = ">=3.9,<3.12"
+bladesight = {path = "C:/Users/Dawie Diamond/OneDrive/Bladesight/bladesight", develop = true}
+plotly = "^5.23.0"
+nbformat = "^5.10.4"
 
 
-[tool.poetry.group.local.dependencies]
-jupyter = "^1.0.0"
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
